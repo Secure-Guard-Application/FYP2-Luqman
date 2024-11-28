@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/faqTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frequently Asked Questions"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- FAQ Card 1 -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/cardBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/faqTitle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What is Secure Guard?"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:drawableEnd="@drawable/ic_arrow_down"
+                    android:drawablePadding="8dp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/faqDetails1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Secure Guard is a student-developed app from University Poly Tech Mara (UPTM). The goal of creating this app was to assist Android phone users in determining the safety of URL links received from platforms such as Whatsapp, Instagram, and messages before clicking on them.\n\nThis app utilizes the API system to verify URLs. Users are limited to checking the URL link up to 1000 times per month."
+                    android:textSize="16sp"
+                    android:visibility="gone"
+                    android:padding="8dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- FAQ Card 2 -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/cardBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/faqTitle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to use URL Scanner?"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:drawableEnd="@drawable/ic_arrow_down"
+                    android:drawablePadding="8dp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/faqDetails2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Copy any malicious link URL received from apps like Whatsapp, Telegram, and others.\n\n2. Paste the URL link you get into this application.\n\n3. Click on the URL check button in this application to verify the provided link.\n\n4. The outcome will be revealed after this application checks the provided link for any potential threats."
+                    android:textSize="16sp"
+                    android:visibility="gone"
+                    android:padding="8dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- FAQ Card 3 -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/cardBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/faqTitle3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to use QR Scanner?"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:drawableEnd="@drawable/ic_arrow_down"
+                    android:drawablePadding="8dp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/faqDetails3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Click on the QR Scanner button to proceed with the scanning process.\n\n2. This app will seek permission to access your smartphone's camera and video before proceeding. Select either during app usage or just this once to facilitate the continuation of the scanning process for this application.\n\n3. Proceed with the scanning process and the outcome will indicate whether it is safe or dangerous."
+                    android:textSize="16sp"
+                    android:visibility="gone"
+                    android:padding="8dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- FAQ Card 4 -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/cardBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/faqTitle4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What is Log History?"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:drawableEnd="@drawable/ic_arrow_down"
+                    android:drawablePadding="8dp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/faqDetails4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Log history is a database system designed to save all URL links that users have accessed while using URL Scanner and QR Scanner. Users have the ability to verify the links again for future use."
+                    android:textSize="16sp"
+                    android:visibility="gone"
+                    android:padding="8dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- FAQ Card 5 -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/cardBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/faqTitle5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How do hackers or scammers deceive their victims ?"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:drawableEnd="@drawable/ic_arrow_down"
+                    android:drawablePadding="8dp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/faqDetails5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="By using phishing attack.Phishing attack occurs when a scammer or hacker deceives individuals into revealing confidential information such as passwords, credit card numbers, or personal information. This is accomplished by posing as a reliable entity such as a bank or well-known website, tricking the target into visiting a counterfeit website or receiving deceitful messages."
+                    android:textSize="16sp"
+                    android:visibility="gone"
+                    android:padding="8dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- FAQ Card 6 -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/cardBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/faqTitle6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Example of phishing attack"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:drawableEnd="@drawable/ic_arrow_down"
+                    android:drawablePadding="8dp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/faqDetails6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Deceptive Emails or Messages:\n\n > The attacker send fake emails or message that appear legitimate.\n\n 2. Fake websites:\n\n > Victims are often directed to a website that closely mimics a legit one. \n\n 3. Links and attachments: \n\n > Phishing emails frequently include harmful links or attachments that can install malware or take users to fraudulent sites if clicked."
+                    android:textSize="16sp"
+                    android:visibility="gone"
+                    android:padding="8dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- FAQ Card 7 -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/cardBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/faqTitle7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How to respond if you become a victim of a phishing attack."
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:drawableEnd="@drawable/ic_arrow_down"
+                    android:drawablePadding="8dp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/faqDetails7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Avoid clicking on links.If you have already clicked on a link,close the page without providing any information.\n\n 2. Change Your Password.\n\n 3. Scan your device for malware  "
+                    android:textSize="16sp"
+                    android:visibility="gone"
+                    android:padding="8dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</ScrollView>

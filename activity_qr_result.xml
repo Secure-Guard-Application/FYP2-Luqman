@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Scanned URL -->
+    <TextView
+        android:id="@+id/scannedUrlTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="https://example.com"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:paddingBottom="8dp" />
+
+    <!-- Safe/Malicious Indicator -->
+    <ImageView
+        android:id="@+id/statusIcon"
+        android:layout_width="64dp"
+        android:layout_height="64dp" /> <!-- Use separate icons for safe/malicious -->
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="24sp"
+        android:paddingTop="8dp"
+        android:textAlignment="center" />
+
+    <!-- Action Buttons -->
+    <Button
+        android:id="@+id/openButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPEN"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/copyDataButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COPY DATA"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/scanAnotherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCAN ANOTHER CODE"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_marginTop="16dp"
+        android:clickable="true" />
+</LinearLayout>
